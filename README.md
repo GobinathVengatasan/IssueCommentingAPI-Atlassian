@@ -31,6 +31,6 @@ This API has below two endpoints for adding and retrieving issue comments.
 **Test the service in Postman :**
 
 1. Open the postman
-2. Download the postman collections "IssueCommentingAPI.postman_collection.json" provided in the git
+2. Download the postman collections **"IssueCommentAPI-Atlassian.postman_collection.json"** provided in the git
 3. Import the collections into postman
 4. Test all the endpoints

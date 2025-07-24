@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "9ad664f2-115d-44de-9249-2bd2324f1820",
+		"name": "IssueCommentAPI-Atlassian",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46977363",
+		"_collection_link": "https://cryosat-candidate-13793178-7627849.postman.co/workspace/Gobinath-Vengatasan's-Workspace~0955a82b-b1c2-4a95-818c-192e08a71b26/collection/46977363-9ad664f2-115d-44de-9249-2bd2324f1820?action=share&source=collection_link&creator=46977363"
+	},
+	"item": [
+		{
+			"name": "AddComment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Author\": \"Gobinath\",\r\n    \"Message\": \"Use Java Standards\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5990/refapp/rest/api/issue-comments/1.0/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5990",
+					"path": [
+						"refapp",
+						"rest",
+						"api",
+						"issue-comments",
+						"1.0",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetComment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5990/refapp/rest/api/issue-comments/1.0/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5990",
+					"path": [
+						"refapp",
+						"rest",
+						"api",
+						"issue-comments",
+						"1.0",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
